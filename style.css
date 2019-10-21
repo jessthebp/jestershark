@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: .75em;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'nav nav nav1 nav1 nav2 nav2'
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+  grid-column-gap: 5px;
+  grid-row-gap:5px;
+  
+  } 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  background-color:LightCyan;
+}
+
+
+
+.nav {
+  overflow: hidden;
+grid-area: nav;
+  background-color:thistle;
+	color:Black;
+      text-align: center;
+  padding: 14px 16px;
+}
+
+.nav1 {
+  overflow: hidden;
+grid-area: nav1;
+background-color:LightCyan;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.nav2 {
+  overflow: hidden;
+grid-area: nav2;
+background-color:#B0E0E6;
+  text-align: center;
+    padding: 14px 16px;
+
+}
+.nav a {
+color: Purple;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: LightCyan;
+  color: black;
+}
+
+.nav2 a {
+color: Purple;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+.nav2 a:hover {
+  background-color: Thistle;
+  color: black;
+}
+.nav1 a {
+color: Purple;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+.nav1 a:hover {
+  background-color: #B0E0E6;
+  color: black;
+}
+
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  background-color: #B0E0E6;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  background-color: Thistle;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
