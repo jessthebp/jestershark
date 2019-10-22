@@ -26,12 +26,6 @@
 </style>
   <script> 
 
-$( document ).ready(function() {
-    $('#song').change(function(){
-        $('#overlay').html($('#song').val());
-    });
-});
-
 </script>
 
 </head>
@@ -47,8 +41,8 @@ $( document ).ready(function() {
 	  
 <div class="container">
 	  <img src="https://66.media.tumblr.com/0469c3a8a74d1d179ca2f3279cbabab2/tumblr_pzhz1i5DSl1u7jxxro1_1280.png" style="width:100%">
-  <div class="top-left" id="overlay">Top Right</div>
-  <div class="bottom-left">Bottom Right</div>
+  <div class="top-left" id="overlay" contenteditable="true">Top Right</div>
+  <div class="bottom-left" contenteditable="true" >Bottom Right</div>
   
 </div>
 </body>
