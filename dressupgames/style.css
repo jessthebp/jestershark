@@ -2,17 +2,15 @@ body{
 background-color: powderblue;
 }
 
-.clothes{ 
-position:absolute;
-  top:200px;
-  left:540px;
-  border-radius:50%;
-}
 
-.clothes2 {
-    position:absolute;
-  top:50px;
-  left:295px;
-  border-radius:50%;
-}
+#top {
+  z-index: 2;
 
+    position: relative;
+  left: 200px;
+}
+#dress {
+  z-index: 1;
+  position: absolute;
+  left: 50px;
+}
