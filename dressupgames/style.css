@@ -5,14 +5,15 @@ background-color: powderblue;
 
 #outfit {
   z-index: 3;
-left: 50px;
+left: 10px;
     position: relative;
- 
+   top: 20%;
 }
 #base {
   z-index: 1;
   position: absolute;
-left: 50px;
+left: 9%;
+  top: 38px;
 }
 
 #shoes {
