@@ -7,12 +7,12 @@ background-color: powderblue;
   z-index: 3;
 
     position: relative;
-  left: 200px;
+ 
 }
 #base {
   z-index: 1;
   position: absolute;
-  left: 50px;
+
 }
 
 #shoes {
