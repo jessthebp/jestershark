@@ -3,13 +3,13 @@ background-color: powderblue;
 }
 
 
-#top {
+#outfit {
   z-index: 2;
 
     position: relative;
   left: 200px;
 }
-#dress {
+#base {
   z-index: 1;
   position: absolute;
   left: 50px;
