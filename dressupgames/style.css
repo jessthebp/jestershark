@@ -14,3 +14,9 @@ background-color: powderblue;
   position: absolute;
   left: 50px;
 }
+
+#shoes {
+  z-index: 2;
+    position: relative;
+  left: 200px;
+}
