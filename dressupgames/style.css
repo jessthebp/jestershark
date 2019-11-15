@@ -5,18 +5,18 @@ background-color: powderblue;
 
 #outfit {
   z-index: 3;
-
+left: 50px;
     position: relative;
  
 }
 #base {
   z-index: 1;
   position: absolute;
-
+left: 50px;
 }
 
 #shoes {
   z-index: 2;
     position: relative;
-  left: 200px;
+  left: 50px;
 }
