@@ -1,0 +1,274 @@
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:LightCyan;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: .75em;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'nav nav nav1 nav1 nav2 nav2'
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+  grid-column-gap: 5px;
+  grid-row-gap:5px;
+  
+  } 
+  
+
+
+  
+  .left,
+.middle,
+.right {
+  padding: 10px;
+}
+
+.game_container{
+      background-color: #B0E0E6;
+          grid-area: middle;
+    }
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  background-color:LightCyan;
+}
+
+
+#jacket {
+  z-index: 6;
+  position: absolute;
+  left: auto;
+      grid-area: middle;
+}
+
+#top {
+  z-index: 3;
+    position: absolute;
+  left: auto;
+    grid-area: middle;
+}
+
+
+#pant{
+  z-index: 2;
+  position:absolute;
+    left: auto;
+        grid-area: middle;
+	}
+
+
+.things {
+  z-index: 5;
+  position: absolute;
+  left: auto;
+      grid-area: middle;
+}
+
+
+
+#character {
+  z-index: 1;
+  position:absolute;
+    left: auto;
+        grid-area: middle;
+}
+
+
+
+.game_container{
+    width:100%; 
+        grid-area: middle;
+    }
+
+    
+.clothing{
+   font-size:1.2em;
+  position: relative;
+  width: 380px;
+  margin-left: -400px;
+  float: right;
+  overflow: hidden;
+  background: #2c3e50;
+  color: #eee;
+  min-height: 600px;
+      grid-area: right;
+      padding: 1em;
+      grid-area: right;
+          list-style-type: none;
+
+}
+button {
+  background-color: #e0Ffff; 
+  border: 1px #2c3e50;
+  color: black;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius:5px;
+}
+
+
+
+  
+  .credit{
+   font-size:1.2em;
+  position: relative;
+  width: 140px;
+  margin-left: 10px;
+  float: left;
+  overflow: hidden;
+  background: #2c3e50;
+  color: #eee;
+  min-height: 600px;
+      grid-area: right;
+      padding: 1em;
+      margin-inline-end: 5px;
+      margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.outfit_display{
+    width:70%;
+    background-color: purple;
+            grid-area: middle;
+        
+}
+
+
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: .75em;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+
+
+
+
+
+.nav {
+  overflow: hidden;
+grid-area: nav;
+  background-color:thistle;
+	color:Black;
+      text-align: center;
+  padding: 14px 16px;
+}
+
+.nav1 {
+  overflow: hidden;
+grid-area: nav1;
+background-color:LightCyan;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.nav2 {
+  overflow: hidden;
+grid-area: nav2;
+background-color:#B0E0E6;
+  text-align: center;
+    padding: 14px 16px;
+
+}
+.nav a {
+color: Purple;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: LightCyan;
+  color: black;
+}
+
+.nav2 a {
+color: Purple;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+.nav2 a:hover {
+  background-color: Thistle;
+  color: black;
+}
+.nav1 a {
+color: Purple;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+.nav1 a:hover {
+  background-color: #B0E0E6;
+  color: black;
+}
+
+
+h1{
+    background-color:LightCyan;
+    color: black;
+    border-radius:5%;
+      text-align: center;
+      padding: 15px;
+      margin: initial;
+    }
+    
+ul{
+    
+    margin-inline-end: 5px;
+    }
+    
+
+#shirt_1, #shirt_3, #shirt_5, #shirt_7, #shirt_9, #shirt_11{
+background-color:#d8bfd8;
+}
+
+#pant_button2, #pant_button4{
+background-color: hotpink;
+}
+
+
+#none{
+
+background-color: hotpink;
+
+}
+
+#jacket_button1, #jacket_button3, #jacket_button5{
+background-color: #e6cebc;
+
+}
+
+#remove_button1, #remove_button2, #remove_button3, #remove_button4,#remove_button5, #remove_button6, #remove_button7, #remove_button8, #remove_button9{
+
+background-color: hotpink;
+}
+
+h3{
+    font-size: 1em;
+    margin: .4em;
+    }
