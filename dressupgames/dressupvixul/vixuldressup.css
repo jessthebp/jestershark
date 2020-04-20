@@ -51,7 +51,7 @@ body {
 }
 
 
-#jacket {
+#eye {
   z-index: 6;
   position: absolute;
   left: auto;
@@ -67,6 +67,13 @@ body {
 
 
 #pant{
+  z-index: 2;
+  position:absolute;
+    left: auto;
+        grid-area: middle;
+	}
+
+#hair{
   z-index: 2;
   position:absolute;
     left: auto;
