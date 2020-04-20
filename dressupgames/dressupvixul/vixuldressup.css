@@ -277,7 +277,15 @@ background-color: #e6cebc;
 
 }
 
-#remove_button1, #remove_button2, #remove_button3, #remove_button4,#remove_button5, #remove_button6, #remove_button7, #remove_button8, #remove_button9{
+#eye_button1, #eye_button3, #eye_button5{
+background-color: #e6cebc;
+
+}
+#hair_button1, #hair_button3, #hair_button5, #hair_button7{
+background-color: #e6cebc;
+
+}
+#remove_button1, #remove_button2, #remove_button3, #remove_button4,#remove_button5, #remove_button6, #remove_button7, #remove_button8, #remove_button9, #remove_button10, , #remove_button11{
 
 background-color: hotpink;
 }
