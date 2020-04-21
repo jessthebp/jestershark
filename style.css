@@ -140,21 +140,6 @@ h1 {
     padding-top: 0.75rem;
 }
 
-/* The grid container */
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-    'header header header header header header' 
-    'nav nav nav1 nav1 nav2 nav2'
-    'left left middle middle right right'
-	'left left middle middle right right' 
-	      'left left middle middle right right' 
-    'footer footer footer footer footer footer';
-  grid-column-gap: 5px;
-  grid-row-gap:5px;
-  
-  } 
-
 .left,
 .middle,
 .right {
@@ -163,14 +148,12 @@ h1 {
 
 /* Style the left column */
 .left {
-  grid-area: left;
   background-color:LightCyan;
 }
 
 
 .nav {
   overflow: hidden;
-grid-area: nav;
   background-color:thistle;
 	color:Black;
       text-align: center;
@@ -179,7 +162,6 @@ grid-area: nav;
 
 .nav1 {
   overflow: hidden;
-grid-area: nav1;
 background-color:LightCyan;
   text-align: center;
   padding: 14px 16px;
@@ -187,7 +169,6 @@ background-color:LightCyan;
 
 .nav2 {
   overflow: hidden;
-grid-area: nav2;
 background-color:#B0E0E6;
   text-align: center;
     padding: 14px 16px;
@@ -243,7 +224,6 @@ color: Purple;
 
 /* Style the footer */
 .footer {
-  grid-area: footer;
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
