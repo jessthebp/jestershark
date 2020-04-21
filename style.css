@@ -146,7 +146,9 @@ h1 {
   grid-template-areas: 
     'header header header header header header' 
     'nav nav nav1 nav1 nav2 nav2'
-    'left left middle middle right right' 
+    'left left middle middle right right'
+	'left left middle middle right right' 
+	      'left left middle middle right right' 
     'footer footer footer footer footer footer';
   grid-column-gap: 5px;
   grid-row-gap:5px;
